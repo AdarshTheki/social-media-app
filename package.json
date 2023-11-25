@@ -1,11 +1,15 @@
 {
   "name": "social-media-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Full Social Media App Create with Hitesh",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node index.jx"
+    "dev": "nodemon src/index.jx"
   },
   "author": "Adarsh Verma",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
